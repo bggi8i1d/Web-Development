@@ -1,0 +1,61 @@
+.grid-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 150px 250px 300px 100px ;
+    gap:25px;
+}
+
+.dev{
+    font-family: "Poppins", sans-serif;
+    color:orange;
+    grid-column: span 2;
+    font-style: italic;
+    font-size: 35px;
+}
+.Agency{
+   
+    grid-column: span 2;
+    font-size:80px;
+    font-family: monospace;
+    text-align:center;
+}
+.Beauty{
+    
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align:justify;
+}
+.Business{
+   
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.Footer{
+    
+    grid-column: span 2;
+}
+
+body{
+    background-color:oldlace;
+}
+
+img{float: left;
+    width:70%;
+}
+
+div{display: inline-block;}
+
+@media (max-width:900px)
+{
+ .Agency{
+    font-size: 40px;
+ }
+}
+
+.Footer{
+    color:blue;
+    font-weight: 100;
+    text-align:end;
+}
+
+.copyright{text-align: center;}
+
+
